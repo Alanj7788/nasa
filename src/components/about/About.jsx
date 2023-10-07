@@ -2,7 +2,7 @@ import React from 'react'
 import './about.css'
 import {FaHandPointDown} from 'react-icons/fa'
 import {BsDownload} from 'react-icons/bs'
-
+import PPT from '../../assets/ppt.pptx'
 
 const About = () => {
   return (
@@ -41,8 +41,8 @@ const About = () => {
           </article>
 
           <article className='about_card'>
-          <h5>Click Below to know how our App works <BsDownload/></h5>
-          <a href="https://www.spaceappschallenge.org/" >Nasa Space Apps Challenge</a>
+          <h5>To Download our Project Demo <BsDownload/></h5>
+          <a href={PPT} >Nasa Space Apps Challenge</a>
           </article>
 
         </div>
@@ -50,7 +50,7 @@ const About = () => {
         <p>
 
 </p>
-    <a href="#contact" className='btn btn-primary'>Give us a message to know more about EMIT</a>
+    <a href="#testimonials" className='btn btn-primary'>Give us a message to know more about EMIT</a>
     </div>
    </div>
    </section>

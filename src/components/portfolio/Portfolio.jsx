@@ -32,9 +32,9 @@ const data = [
   {
     id: 4,
     image: IMG4,
-    title: "Human Dimensions",
-    github: "https://www.earthdata.nasa.gov/topics/human-dimensions",
-    demo: "https://search.earthdata.nasa.gov/search?fst0=human%20dimensions",
+    title: "Solid Earth",
+    github: "https://www.earthdata.nasa.gov/topics/solid-earth",
+    demo: "https://search.earthdata.nasa.gov/search?fst0=solid%20earth",
   },
   {
     id: 5,
@@ -49,14 +49,8 @@ const data = [
     title: "Ocean",
     github: "https://www.earthdata.nasa.gov/topics/ocean",
     demo: "https://search.earthdata.nasa.gov/search?fst0=oceans",
-  },
-  {
-    id: 7,
-    image: IMG6,
-    title: "Terrestrial-Hydrosphere",
-    github: "https://www.earthdata.nasa.gov/topics/terrestrial-hydrosphere",
-    demo: "https://search.earthdata.nasa.gov/search?fst0=terrestrial%20hydrosphere",
   }
+  
 ]
 
 
@@ -75,8 +69,8 @@ const Portfolio = () => {
           </div>
           <h3>{title}</h3>
           <div className="portfolio_item-cta">
-          <a href={github} className='btn ' target='_blank'>Github</a>
-          <a href={demo} className='btn btn-primary' target='_blank'>Live Demo</a>
+          <a href={github} className='btn ' target='_blank'>Explore</a>
+          <a href={demo} className='btn btn-primary' target='_blank'>Live</a>
           </div>        
         </article>
           )
