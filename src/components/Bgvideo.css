@@ -1,0 +1,6 @@
+/* Add this CSS in your stylesheet or style block */
+.container:hover video {
+  opacity: 0.5; /* Reduce the opacity on hover */
+  transition: opacity 0.5s ease-in-out;
+}
+
