@@ -5,6 +5,8 @@ import {BsDownload} from 'react-icons/bs'
 import PPT from '../../assets/ppt.pptx'
 
 const About = () => {
+  
+
   return (
    <section id='about'>
    <h5>Get to know</h5> 
@@ -13,15 +15,7 @@ const About = () => {
    <div className="container about_container">
     
    <div className="about_me">
-        <iframe
-            title="YouTube Video"
-            width="105%" /* Adjust the width as needed */
-            height="335" /* Maintain aspect ratio */
-            src="https://www.youtube.com/embed/hYv6BM2fWd8"
-            frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-        ></iframe>
+   <iframe width="650" height="428" src="https://www.youtube.com/embed/TKz58Jc2waE" title="EMIT APP( NASA SPACE CHALLENGE )" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
    
  
       </div>

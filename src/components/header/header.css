@@ -23,7 +23,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  z-index: 1; /* Place content above the video */
+  z-index: 2; /* Place content above the video */
 }
 
 .custom-button {

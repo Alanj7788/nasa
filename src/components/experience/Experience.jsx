@@ -30,7 +30,6 @@ const Experience = () => {
               <BsPatchCheckFill />
               <div>
                 <h4>This image shows the first measurements taken by NASA’s Earth Surface Mineral Dust Source Investigation (EMIT) from aboard the International Space Station at 7:51 p.m. PDT (10:51 p.m. EDT) on July 27, 2022, as it passed over western Australia.</h4>
-                <a href="https://www.jpl.nasa.gov/images/pia24529-emit-instruments-first-light">Link</a>
               </div>
             </article>
           </div>
