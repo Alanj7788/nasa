@@ -84,6 +84,7 @@
        .about_cards {
         grid-template-columns: 1fr 1fr;
         gap: 1rem;
+       
        }
 
        .about_content {
