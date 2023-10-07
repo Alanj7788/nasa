@@ -43,13 +43,13 @@ const Contact = () => {
             </small>
             <br /> Contact via: <br />
             <AiOutlineMail/>
-            <a href="mailto:jishnu.cse21@jecc.ac.in" target="_blank">Email</a>
+            <a href="mailto:jishnu.cse21@jecc.ac.in" target="_blank" rel="noopener noreferrer">Email</a>
             <br />
             <FaWhatsapp/>
-            <a href="https://api.whatsapp.com/send?phone=8714014040" target="_blank">Whatsapp</a>
+            <a href="https://api.whatsapp.com/send?phone=8714014040" target="_blank" rel="noopener noreferrer">Whatsapp</a>
             <br />
             <AiOutlineLinkedin/>
-            <a href="www.linkedin.com/in/alan-jose-5b7354227" target="_blank">Linkedin</a>
+            <a href="www.linkedin.com/in/alan-jose-5b7354227" target="_blank" rel="noopener noreferrer">Linkedin</a>
           </SwiperSlide>
 
           <SwiperSlide className="testimonial">
@@ -61,14 +61,15 @@ const Contact = () => {
               Team Member
             </small>
             <br /> Contact via: <br />
+
             <AiOutlineMail/>
-            <a href="mailto:alan.cse21@jecc.ac.in" target="_blank">Email</a>
+            <a href="mailto:alan.cse21@jecc.ac.in" target="_blank" rel="noopener noreferrer">Email</a>
             <br />
             <FaWhatsapp/>
-            <a href="https://api.whatsapp.com/send?phone=9497204867" target="_blank">Whatsapp</a>
+            <a href="https://api.whatsapp.com/send?phone=9497204867" target="_blank" rel="noopener noreferrer">Whatsapp</a>
             <br />
             <AiOutlineLinkedin/>
-            <a href="www.linkedin.com/in/alan-jose-5b7354227" target="_blank">Linkedin</a>
+            <a href="www.linkedin.com/in/alan-jose-5b7354227" target="_blank" rel="noopener noreferrer">Linkedin</a>
           </SwiperSlide>
           <SwiperSlide className="testimonial">
             <div className="client_avatar">
@@ -80,13 +81,13 @@ const Contact = () => {
             </small>
             <br /> Contact via: <br />
             <AiOutlineMail/>
-            <a href="mailto:evin.cse21@jecc.ac.in" target="_blank">Email</a>
+            <a href="mailto:evin.cse21@jecc.ac.in" target="_blank" rel="noopener noreferrer">Email</a>
             <br />
             <FaWhatsapp/>
-            <a href="https://api.whatsapp.com/send?phone=8848183674" target="_blank">Whatsapp</a>
+            <a href="https://api.whatsapp.com/send?phone=8848183674" target="_blank" rel="noopener noreferrer">Whatsapp</a>
             <br />
             <AiOutlineLinkedin/>
-            <a href="https://www.linkedin.com/in/evin-babu-693ba123b/" target="_blank">Linkedin</a>
+            <a href="https://www.linkedin.com/in/evin-babu-693ba123b/" target="_blank" rel="noopener noreferrer">Linkedin</a>
           </SwiperSlide>
           <SwiperSlide className="testimonial">
             <div className="client_avatar">
@@ -98,13 +99,13 @@ const Contact = () => {
             </small>
             <br /> Contact via: <br />
             <AiOutlineMail/>
-            <a href="mailto:jerin.cse21@jecc.ac.in" target="_blank">Email</a>
+            <a href="mailto:jerin.cse21@jecc.ac.in" target="_blank" rel="noopener noreferrer">Email</a>
             <br />
             <FaWhatsapp/>
-            <a href="https://api.whatsapp.com/send?phone=8281104955" target="_blank">Whatsapp</a>
+            <a href="https://api.whatsapp.com/send?phone=8281104955" target="_blank" rel="noopener noreferrer">Whatsapp</a>
             <br />
             <AiOutlineLinkedin/>
-            <a href="https://www.linkedin.com/in/jerin-jaison-047698227/" target="_blank">Linkedin</a>
+            <a href="https://www.linkedin.com/in/jerin-jaison-047698227/" target="_blank" rel="noopener noreferrer">Linkedin</a>
           </SwiperSlide>
           <SwiperSlide className="testimonial">
             <div className="client_avatar">
@@ -116,13 +117,13 @@ const Contact = () => {
             </small>
             <br /> Contact via: <br />
             <AiOutlineMail/>
-            <a href="mailto:aswin.cse21@jecc.ac.in" target="_blank">Email</a>
+            <a href="mailto:aswin.cse21@jecc.ac.in" target="_blank" rel="noopener noreferrer">Email</a>
             <br />
             <FaWhatsapp/>
-            <a href="https://api.whatsapp.com/send?phone=8137967382" target="_blank">Whatsapp</a>
+            <a href="https://api.whatsapp.com/send?phone=8137967382" target="_blank" rel="noopener noreferrer">Whatsapp</a>
             <br />
             <AiOutlineLinkedin/>
-            <a href="" target="_blank">Linkedin</a>
+            <a href="" target="_blank" rel="noopener noreferrer">Linkedin</a>
           </SwiperSlide>
           <SwiperSlide className="testimonial">
             <div className="client_avatar">
@@ -134,13 +135,13 @@ const Contact = () => {
             </small>
             <br /> Contact via: <br />
             <AiOutlineMail/>
-            <a href="mailto:adithya.cse21@jecc.ac.in" target="_blank">Email</a>
+            <a href="mailto:adithya.cse21@jecc.ac.in" target="_blank" rel="noopener noreferrer">Email</a>
             <br />
             <FaWhatsapp/>
-            <a href="https://api.whatsapp.com/send?phone=8921939034" target="_blank">Whatsapp</a>
+            <a href="https://api.whatsapp.com/send?phone=8921939034" target="_blank" rel="noopener noreferrer">Whatsapp</a>
             <br />
             <AiOutlineLinkedin/>
-            <a href="https://www.linkedin.com/in/adithya-e-b5b9a8269/" target="_blank">Linkedin</a>
+            <a href="https://www.linkedin.com/in/adithya-e-b5b9a8269/" target="_blank" rel="noopener noreferrer">Linkedin</a>
           </SwiperSlide>
           
         </Swiper>
