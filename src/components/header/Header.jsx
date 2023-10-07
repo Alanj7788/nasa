@@ -1,28 +1,18 @@
-import React from 'react'
-import './header.css'
-import CTA from './CTA'
+import React from "react";
+import Bgvideo from "../Bgvideo";
+import Button from 'react-bootstrap/Button';
 
+import "./header.css";
 
-
-
-const Header = () => {
+const Header = (props) => {
   return (
-  <header>
-    <div className="container header_container">
-      
-      <h1>Alan Jose</h1>
-      
-      <CTA />
-      
-
-
-      
-      
-      
+    <div className="header-container">
+      <Bgvideo />
+      <div className="content">
+        <Button variant="outline-primary" className="custom-button">Download EMIT.apk</Button>
       </div>
-  </header>    
-    
-  )
-}
+    </div>
+  );
+};
 
-export default Header
+export default Header;

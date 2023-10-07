@@ -1,54 +1,65 @@
-header {
-    height: 100vh;
-    padding-top: 7rem;
-    overflow: hidden;
+/* Reset margin and padding for the entire page */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow: auto; /* Prevent scrollbars */
 }
 
-.header_container {
-    text-align: center;
-    height: 100%;
-    position: relative;
+/* Apply full-width styles to the header container */
+.header-container {
+    padding: 0;
+    margin: 0;
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Adjust as needed */
+  overflow: auto; /* Prevent scrollbars */
 }
 
-/*------CTA----*/
-.cta {
-    margin-top: 2.5rem;
-    display: flex;
-    gap: 1.2em;
-    justify-content: center;
+/* Center content in the header */
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 1; /* Place content above the video */
 }
 
+.custom-button {
+    background-color: transparent; /* Make the button transparent */
+    color: #2d22ff; /* Set the text color to white */
+    font-size: 50px; /* Adjust the font size to make it larger */
+    border: 4px solid #fff; /* Add a border to the button */
+    padding: 10px 20px; /* Add padding to the button for spacing */
+    cursor: pointer; /* Add a pointer cursor for interactivity */
+    font: optional;
+  }
+  
+  /* Style the button on hover (optional) */
+  .custom-button:hover {
+    background-color: #fff; /* Change the background color on hover */
+    color: #000; /* Change the text color on hover */
+  }
 
-
-
-
-.scroll_down {
+.header-container::before {
+    content: "";
     position: absolute;
-    right: -2.3rem;
-    bottom:5rem;
-    transform: rotate(90deg);
-    font-weight: 300;
-    font-size: 0.9rem;
-    
-}
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.4) 0%,
+      transparent 10%,
+      transparent 90%,
+      rgba(0, 0, 0, 0.4) 100%
+    );
+    z-index: 2; /* Place the gradient overlay above the video */
+  }
+/* Add any additional styles you want for your content here */
 
-/*---------MEDIA QUERIES (MEDIUM DEVICES) ----*/
-
-@media screen and (max-width: 1024px) {
-header{
-    height: 100vh;
-}
-}
-
-/*---------MEDIA QUERIES (SMALL DEVICES) ----*/
-
-@media screen and (max-width: 600px) {
-
-    header{
-        height: 103vh;
-    }
-
-    .header_socials, .scroll_down {
-        display: none;
-    }
-}
+/* Styles for the video component (you can adjust these as needed) */
+/* The 'objectFit: cover' from your original code should make the video span the full width */
+/* If you need additional styling, add it here */
