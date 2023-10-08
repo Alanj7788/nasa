@@ -49,7 +49,7 @@ const Contact = () => {
             <a href="https://api.whatsapp.com/send?phone=8714014040" target="_blank" rel="noopener noreferrer">Whatsapp</a>
             <br />
             <AiOutlineLinkedin/>
-            <a href="www.linkedin.com/in/alan-jose-5b7354227" target="_blank" rel="noopener noreferrer">Linkedin</a>
+            <a href="https://www.linkedin.com/in/jerin-jaison-047698227/" target="_blank" rel="noopener noreferrer">Linkedin</a>
           </SwiperSlide>
 
           <SwiperSlide className="testimonial">
@@ -69,7 +69,7 @@ const Contact = () => {
             <a href="https://api.whatsapp.com/send?phone=9497204867" target="_blank" rel="noopener noreferrer">Whatsapp</a>
             <br />
             <AiOutlineLinkedin/>
-            <a href="www.linkedin.com/in/alan-jose-5b7354227" target="_blank" rel="noopener noreferrer">Linkedin</a>
+            <a href="https://www.linkedin.com/in/alan-jose-5b7354227/" target="_blank" rel="noopener noreferrer">Linkedin</a>
           </SwiperSlide>
           <SwiperSlide className="testimonial">
             <div className="client_avatar">
@@ -123,7 +123,7 @@ const Contact = () => {
             <a href="https://api.whatsapp.com/send?phone=8137967382" target="_blank" rel="noopener noreferrer">Whatsapp</a>
             <br />
             <AiOutlineLinkedin/>
-            <a href="" target="_blank" rel="noopener noreferrer">Linkedin</a>
+            <a href="https://www.linkedin.com/in/evin-babu-693ba123b/" target="_blank" rel="noopener noreferrer">Linkedin</a>
           </SwiperSlide>
           <SwiperSlide className="testimonial">
             <div className="client_avatar">

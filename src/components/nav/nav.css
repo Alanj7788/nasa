@@ -1,3 +1,4 @@
+/* Default styles for larger devices */
 nav {
     background: rgba(0, 0, 0, 0.3);
     width: max-content;
@@ -5,30 +6,44 @@ nav {
     padding: 0.7rem 1.7rem;
     z-index: 2;
     position: fixed;
-    left:50%;
+    left: 50%;
     transform: translate(-50%);
     bottom: 1rem;
     gap: 6.8rem;
     border-radius: 2rem;
     backdrop-filter: blur(15px);
-
 }
 
 nav a {
     background: transform;
-    padding:.6rem;
+    padding: .6rem;
     border-radius: 50%;
-    
     color: var(--color-light);
     font-size: 1.1rem;
 }
 
-nav a:hover{
+nav a:hover {
     background: rgba(0, 0, 0, 0.3);
 }
 
 nav a.active {
     background: var(--color-bg);
     color: var(--color-white);
+}
 
+/* Media query for smaller devices */
+@media screen and (max-width: 768px) {
+    nav {
+        width: 90%;
+        padding: 0.5rem;
+        justify-content: space-around;
+        gap: .5rem;
+        border-radius: 0;
+        bottom: 0;
+    }
+
+    nav a {
+        padding: 0.5rem;
+        border-radius: 0;
+    }
 }

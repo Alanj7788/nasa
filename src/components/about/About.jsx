@@ -15,7 +15,10 @@ const About = () => {
    <div className="container about_container">
     
    <div className="about_me">
-   <iframe width="650" height="428" src="https://www.youtube.com/embed/TKz58Jc2waE" title="EMIT APP( NASA SPACE CHALLENGE )" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+   <div class="video-container">
+    <iframe width="650" height="428" src="https://www.youtube.com/embed/TKz58Jc2waE" title="EMIT APP( NASA SPACE CHALLENGE )" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
    
  
       </div>
